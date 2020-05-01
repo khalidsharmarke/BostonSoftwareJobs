@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+</head>
+
+<body>
+    <script type="text/javascript">
+    // to make the DOM obj respond to changes made in js, 
+    // we can try making it listen for events
+    let array = ['test', 'abc', '123'];
+
+    class List {
+    	constructor(arr){
+    		this.list = arr;
+    		this.addEventListener()
+    	}
+    	print(){
+    		for(let str in this.list){
+    			let node = document.createElement('div');
+    			node.textContent = str;
+    			document.body.appendChild(node)
+    		}
+    	}
+    	createEvent(str){
+    		const event = new CustomEvent('updateList', )
+    	}
+    }
+
+    let list = new List(array).print()
+
+
+    </script>
+</body>
+
+</html>

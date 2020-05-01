@@ -1,0 +1,23 @@
+.img-list {
+  width: 200px;
+}
+/* Need some additional CSS for layout */
+
+#compList {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.imgCard {
+	border: 1px solid lightgray;
+/* Do you need an additional flexbox property here? */
+	width: 20%;
+}
+.compName {
+	text-align: center;
+	font-size: large;
+}
+
+.company-image {
+	width: 100%;
+}
